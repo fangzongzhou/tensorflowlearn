@@ -1,6 +1,6 @@
 import tensorflow as tf
 import numpy  as np
-
+# 用深度学习调整线性函数的参数
 x_data = np.random.rand(100).astype(np.float32)
 y_data = x_data * 0.1 + 0.3
 
